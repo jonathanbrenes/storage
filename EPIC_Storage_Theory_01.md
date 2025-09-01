@@ -20,7 +20,7 @@
 ### Understanding LVM Architecture in Linux
 
 - This diagram illustrates the layered structure of **Logical Volume Management (LVM)** in Linux, showcasing how physical storage is abstracted and organized for flexible disk management.
-  ![Screenshoot LVM Architecture ](./.attachments/lvm001.png =700x)
+  ![Screenshoot LVM Architecture ](https://github.com/jonathanbrenes/storage/blob/main/.attachments/lvm001.png =700x)
 
   #### LVM Hierarchy
   - **Disks/Partitions**
