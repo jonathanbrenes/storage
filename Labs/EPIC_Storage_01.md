@@ -21,8 +21,4 @@
   - Extend ```/dev/vgdata03/lvdata02``` to use all available space on the volume group ```vgdata02``` as well the filesystem.
   - Add ```/dev/disk/azure/scsi1/lun4``` to ```/dev/vgdata02``` and extend all free space on ```/dev/vgdata02/lvdata02```.
     > Got any error? What you need to solve this?
-  - Extend ```/dev/vgdata02/lvdata03``` to use all available space on the volume group ```vgdata03``` as well the filesystem.
-  - Create and attach **two** new 4GB disks to be used with ```vgdata03```, assign IDs 8 and 9.
-    > Another problem? How can you solve this?
-  - Add the new LUNs 8 and 9 to ```vgdata03``` and extend  ```/dev/vgdata03/lvdata03```.
 
