@@ -122,7 +122,7 @@
   - Shrinking a filesystem:
     ```bash
     umount /opt/storage
-    e2fsk -f /dev/vg_data/lv_storage 
+    e2fsck -f /dev/vg_data/lv_storage 
     resize2fs /dev/vg_data/lv_storage 8G
     lvreduce -L 8G /dev/vg_data/lv_storage
     mount /dev/vg_data/lv_storage /opt/storage
@@ -171,3 +171,4 @@
     > In this example, since the volume is striped across **2 PVs**, expanding it would require adding **2 more PVs**.  
     >  
     > Alternatively, you can increase the size of the **existing PVs** to accommodate the expansion without adding new devices.
+
