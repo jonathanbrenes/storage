@@ -64,7 +64,7 @@
 ### Creating a Volume Group (VG)
   - Combine PVs into a Volume Group:
     ```bash
-    vgcreate vg_data /dev/sdb /dev/sdc`
+    vgcreate vg_data /dev/sdb /dev/sdc
     ```
   - Check VG details:
     ```bash
@@ -171,4 +171,5 @@
     > In this example, since the volume is striped across **2 PVs**, expanding it would require adding **2 more PVs**.  
     >  
     > Alternatively, you can increase the size of the **existing PVs** to accommodate the expansion without adding new devices.
+
 
