@@ -14,7 +14,7 @@
 ### Understanding Mirror LVM
 
 - This diagram illustrates the layered structure of **Logical Volume Management (LVM)** in Linux, showcasing how physical storage is abstracted and organized for flexible disk management.
-  ![Screenshoot LVM Architecture ](./.attachments/lvm002.png =700x)
+  ![Screenshoot LVM Architecture ](./.attachments/lvm002.png)
 
   #### LVM Hierarchy
   - **Disks/Partitions**
