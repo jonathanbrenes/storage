@@ -3,6 +3,7 @@
   Deploy this VM. This will automatically create a VM and set an initial LVM/filesystem structure.
    
   [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fjonathanbrenes%2Fstorage%2Fmain%2FLabs%2Fepic_storage_lab1.json)
+
   
   For this exercise, it's recommended to use these commands: 
   ```bash
@@ -21,4 +22,3 @@
   - Extend ```/dev/vgdata03/lvdata02``` to use all available space on the volume group ```vgdata02``` as well the filesystem.
   - Add ```/dev/disk/azure/scsi1/lun4``` to ```/dev/vgdata02``` and extend all free space on ```/dev/vgdata02/lvdata02```.
     > Got any error? What you need to solve this?
-

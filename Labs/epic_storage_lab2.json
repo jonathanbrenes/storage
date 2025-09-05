@@ -238,6 +238,24 @@
               "managedDisk": {
                 "storageAccountType": "Standard_LRS"
               }
+            },
+            {
+              "lun": 2,
+              "name": "data01_03",
+              "diskSizeGB": 6,
+              "createOption": "Empty",
+              "managedDisk": {
+                "storageAccountType": "Premium_LRS"
+              }
+            },
+            {
+              "lun": 3,
+              "name": "data01_04",
+              "diskSizeGB": 6,
+              "createOption": "Empty",
+              "managedDisk": {
+                "storageAccountType": "Premium_LRS"
+              }
             }
           ]
         },
