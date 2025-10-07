@@ -219,7 +219,6 @@
             "sku": "[variables('imageSKU')]",
             "version": "[variables('imageVersion')]"
           },
-          "diskControllerType": "NVMe",
           "dataDisks": [
             {
               "lun": 0,
@@ -274,4 +273,5 @@
       "value": "[reference(resourceId('Microsoft.Network/publicIPAddresses', variables('publicIPAddressName'))).dnsSettings.fqdn]"
     }
   }
+
 }
