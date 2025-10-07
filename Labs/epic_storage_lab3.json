@@ -11,7 +11,7 @@
   "parameters": {
     "vmName": {
       "type": "string",
-      "defaultValue": "storage002",
+      "defaultValue": "storage0031",
       "metadata": {
         "description": "The name of you Virtual Machine."
       }
@@ -274,4 +274,5 @@
       "value": "[reference(resourceId('Microsoft.Network/publicIPAddresses', variables('publicIPAddressName'))).dnsSettings.fqdn]"
     }
   }
+
 }
