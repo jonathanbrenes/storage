@@ -2,7 +2,7 @@
 ## NVME
 - Deploy this VM. This will automatically create a VM which uses NVME for all disks.
    
-  [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fjonathanbrenes%2Fmentorship%2Frefs%2Fheads%2Fmain%2Fstorage002.json)
+  [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fjonathanbrenes%2Fstorage%2Frefs%2Fheads%2Fmain%2FLabs%2Fepic_storage_lab3.json)
 
   For this exercise, it's recommended to use the following commands:
   ```bash
@@ -27,7 +27,7 @@
 - For this exercise, we are following the instructions from [Converting Virtual Machines Running Linux from SCSI to NVMe](https://learn.microsoft.com/en-us/azure/virtual-machines/nvme-linux). se Azure CloudShell PowerShell, as PowerShell is required for the conversion script.
 - Deploy this VM. This will automatically create a VM which uses SCSI for all disks.
     
-  [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fjonathanbrenes%2Fmentorship%2Frefs%2Fheads%2Fmain%2Fstorage003.json)
+  [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fjonathanbrenes%2Fstorage%2Frefs%2Fheads%2Fmain%2FLabs%2Fepic_storage_lab4.json)
 
   For this exercise, it's recommended to use the following commands: 
   ```bash
@@ -67,3 +67,4 @@
    - Confirm NVMe devices with `lsblk` and `nvme list`.
    - Validate `/etc/fstab` entries.
    - Reboot and verify boot integrity.
+
