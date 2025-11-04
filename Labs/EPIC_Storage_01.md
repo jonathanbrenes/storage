@@ -19,6 +19,7 @@
   - Extend ```/dev/vgdata01/lvdata01``` to use all available space on the volume group ```vgdata01```. This time extend the filesystem as well.
   - Reduce ```/dev/vgdata01/lvdata01``` to 3GB.
   - Check the filesystem ```/opt/data01```.
-  - Extend ```/dev/vgdata03/lvdata02``` to use all available space on the volume group ```vgdata02``` as well the filesystem.
+  - Extend ```/dev/vgdata03/lvdata03``` to use all available space on the volume group ```vgdata02``` as well the filesystem.
   - Add ```/dev/disk/azure/scsi1/lun4``` to ```/dev/vgdata02``` and extend all free space on ```/dev/vgdata02/lvdata02```.
     > Got any error? What you need to solve this?
+
